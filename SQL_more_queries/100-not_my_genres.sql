@@ -1,3 +1,5 @@
+-- This query selects genres NOT liked by user 2
+
 SELECT name
 FROM tv_genres
 WHERE id NOT IN (
